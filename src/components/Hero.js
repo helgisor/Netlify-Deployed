@@ -109,12 +109,12 @@ const Hero = ({ image, title, desc }) => {
               <div className='text-1'>Hello, my name is</div>
               <div className='text-2'>Oleg Koltsov</div>
               <div class='text-3'>
-                And I
+                And I am
                 <span class='typing'>
                   {
                     <Typewriter
                       options={{
-                        strings: ['am a web dev', 'a designer', 'a code lover'],
+                        strings: ['a web dev', 'a designer', 'a code lover'],
                         autoStart: true,
                         loop: true,
                       }}
